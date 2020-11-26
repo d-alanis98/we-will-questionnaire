@@ -11,10 +11,17 @@
 
 .container {
   width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
+  padding-right: 5rem;
+  padding-left: 5rem;
   margin-right: auto;
   margin-left: auto;
+}
+.mt-3{
+  margin-top: 0.75rem;
+}
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .mb-2 {

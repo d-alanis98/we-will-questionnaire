@@ -1,0 +1,26 @@
+.project-type-selector {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0.5rem;
+}
+
+.project-type-selector img {
+    max-height: 4rem;
+    width: auto;
+    max-width: 40vw;
+    height: auto;
+    margin-top: 0.25rem;
+    cursor: pointer;
+    margin-bottom: 0.75rem;
+}
+
+.project-type-selector img:hover {
+    border: 2px solid #333; 
+}
+
+.project-type-selector--active {
+    border: 2px solid rgb(54, 165, 216);
+}

@@ -1,0 +1,17 @@
+.questionnaire-button {
+    border: 2px solid black;
+    background-color: black;
+    color: #ededed;
+    font-weight: 550;
+    padding: 0.25rem 0.75rem;
+    cursor: pointer;
+    font-size: 1.1em;
+}
+
+.questionnaire-button:hover {
+    box-shadow: 0 0 3px #333;
+}
+
+.questionnaire-button:focus {
+    outline: none;
+}

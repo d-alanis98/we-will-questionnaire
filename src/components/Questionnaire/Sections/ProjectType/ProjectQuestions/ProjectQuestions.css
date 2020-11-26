@@ -1,0 +1,17 @@
+.project-questions--fade-in {
+    opacity: 1;
+    transition: all 1250ms;
+}
+
+.project-questions--fade-out {
+    opacity: 0;
+    transition: all 1200ms;
+}
+
+.project-questions {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}

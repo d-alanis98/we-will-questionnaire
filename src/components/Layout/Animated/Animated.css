@@ -1,0 +1,8 @@
+.animated-element {
+    opacity: 0;
+}
+
+.animated-element--active {
+    opacity: 1;
+    transition: all 1000ms;
+}

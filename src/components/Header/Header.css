@@ -1,0 +1,17 @@
+.questionnaire-header__container {
+    height: 8rem;
+    display: flex;
+    padding: 2rem;
+    padding-top: 3rem;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.questionnaire-header__container > img {
+    max-height: 8rem;
+    width: auto;
+    max-width: 40vw;
+    height: auto;
+    margin-top: 0.25rem;
+}

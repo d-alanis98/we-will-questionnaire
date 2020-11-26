@@ -1,8 +1,23 @@
+
+
+@font-face {
+  font-family: "OverTheRainbow";
+  src: local("OverTheRainbow"),
+    url("./assets/fonts/OvertheRainbow.ttf") format("truetype");
+  font-weight: normal;
+}
+
+.text--over-the-rainbow {
+  font-family: OverTheRainbow;
+}
+
+.text--bold {
+  font-weight: bold;
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }

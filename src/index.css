@@ -1,10 +1,32 @@
-
+*{
+  box-sizing: border-box;
+}
 
 @font-face {
   font-family: "OverTheRainbow";
   src: local("OverTheRainbow"),
     url("./assets/fonts/OvertheRainbow.ttf") format("truetype");
   font-weight: normal;
+}
+
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.mb-2 {
+  margin-bottom: 0.5rem;
+}
+
+.ml-2 {
+  margin-left: 0.75rem;
+}
+
+.text--small {
+  font-size: 0.85em;
 }
 
 .text--over-the-rainbow {
@@ -22,7 +44,4 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+

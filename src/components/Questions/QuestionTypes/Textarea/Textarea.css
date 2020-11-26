@@ -1,0 +1,17 @@
+.questionnaire__question textarea {
+    width: 100%;
+    overflow: auto;
+    resize: none;
+    padding: 0.5rem;
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    border-radius: 0rem;
+    border: 2px solid black;
+}
+  
+.questionnaire__question textarea:focus{
+    outline: none;
+    box-shadow: 0 0 2px #333;
+}

@@ -2,11 +2,10 @@
     display: grid;
     grid-template-columns: min-content auto;
     grid-gap: 0.5em;
-    font-size: 2rem;
     color: #333;
 }
 
-.checkbox__input input[type="checkbox"] {
+.checkbox__input input {
     opacity: 0;
     width: 1em;
     height: 1em;
@@ -16,8 +15,8 @@
     display: inline-grid;
     width: 1em;
     height: 1em;
-    border-radius: 0.25em;
-    border: 0.1em solid #333;
+    border-radius: 0.15em;
+    border: 2px solid #333;
 }
 
 .checkbox__input {
@@ -31,17 +30,19 @@
 }
 
 .checkbox__control svg {
-    transition: transform 0.1s ease-in 25ms;
-    transform: scale(0);
-    transform-origin: bottom left;
+    opacity: 0;
 }
 
 .checkbox__input input:checked
 + .checkbox__control svg {
-    transform: scale(1);
+    height: 1.5em;
+    width: 1.5em;
+    opacity: 1;
+    transform: translateY(-0.75em);
+    transition: all 100ms;
 }
 
 .checkbox__input input:focus
  + .checkbox__control {
-  box-shadow: 0 0 0 0.05em #fff, 0 0 0.15em 0.1em #333;
+  box-shadow: 0 0 4px #333;
 }

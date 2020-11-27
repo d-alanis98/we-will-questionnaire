@@ -25,3 +25,5 @@ yarn-error.log*
 *.png
 *.svg
 *.ttf
+
+.eslintcache

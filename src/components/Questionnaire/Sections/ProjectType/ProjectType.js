@@ -2,12 +2,13 @@ import React, { useEffect, useState } from 'react';
 //Components
 import QuestionBody from '../../../Questions/QuestionBody/QuestionBody';
 import QuestionHeader from '../../../Questions/QuestionHeader/QuestionHeader';
+import ProjectQuestions from './ProjectQuestions/ProjectQuestions';
 import QuestionnaireSection from '../../../QuestionnaireSection/QuestionnaireSection';
+import ProjectTypeSelector from './ProjectTypeSelector/ProjectTypeSelector';
 //Constants
 import { H3 } from '../../../../constants/headers';
-import { FADE_DOWN, FADE_LEFT } from '../../../../constants/animations';
-import ProjectTypeSelector from './ProjectTypeSelector/ProjectTypeSelector';
-import ProjectQuestions from './ProjectQuestions/ProjectQuestions';
+import { FADE_LEFT } from '../../../../constants/animations';
+
 
 
 
